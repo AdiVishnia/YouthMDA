@@ -5,34 +5,18 @@
 ## תיאור הפרויקט
 אפליקציית מגן דוד אדום נוער היא פלטפורמה דיגיטלית המיועדת למתנדבי הנוער של מד"א. האפליקציה מספקת כלים חיוניים, מידע ומשאבים לשיפור היכולות והמעורבות של מתנדבי הנוער.
 
-### תכונות עיקריות:
-#### עוזר אישי חכם YouthMDA-AI 
-עם AI מובנה, המערכת יודעת לענות על שאלות בנושא מגן דוד אדום, תרגולים רפואיים ונהלי חירום ברמה מתקדמת ומדויקת.
-
-#### רשימת בדיקת אמבולנס
-כלי עזר למעבר מסודר על ציוד ואביזרים לפני כל משמרת, כדי לוודא שהכול מוכן לפעולה.
-
-#### טבלת מדדים תקינים
-טבלה מפורטת ודינמית עם ערכים תקינים למדדים שונים, מסווגת לפי קבוצות גיל.
-
-#### כלי עזר חיוניים
-טיימר ומטרונום מובנים לטיפול בנפגעים ולקיחת מדדים בצורה מדויקת ונוחה.
-
-#### עמוד להכנסת מדדים של מטופל בשטח
-ממשק ייעודי לתיעוד מדדים בזמן אמת, כולל תצוגה ויזואלית לניהול נתוני הטיפול.
-
-#### ניהול נתונים אישיים
-מערכת מעקב אישית המציגה פרופיל אישי הכולל שם, תחנה, מייל, גיל, מין, הכשרה, שנות התנדבות ועוד.
-
-#### דף הרשמה והתחברות
-* **הרשמה**: יצירת פרופיל אישי עם הזנת פרטים אישיים כגון שם, גיל, תחנה ותאריך תחילת ההתנדבות.
-* **התחברות**: עמוד מאובטח עם אפשרות לשחזור סיסמה במקרה הצורך.
-
-#### הרצף שלי
-סימון משמרות שבוצעו כדי לשמור על רצף התנדבות שבועי, מה שמעודד מתנדבים לעלות למשמרות.
-
-#### חנות מד"א
-חנות למשתמשים לעיון בפריטי הביגוד וזכאותם לרכישה בהתאם לכמות שעות ההתנדבות.
+### תכונות עיקריות
+1. **YouthMDA-AI עוזר אישי חכם** - עם AI מובנה, המערכת יודעת לענות על שאלות בנושא מגן דוד אדום, תרגולים רפואיים ונהלי חירום ברמה מתקדמת ומדויקת.
+2. **רשימת בדיקת אמבולנס** - כלי עזר מסודר ומקיף המאפשר מעבר על ציוד ואביזרים לפני כל משמרת.
+3. **טבלת מדדים תקינים** - טבלה דינמית עם ערכים לפי קבוצות גיל, ממילודים ועד מבוגרים.
+4. **כלי עזר חיוניים** - טיימר ומטרונום מובנים למדידת דופק וטיפול במטופלים.
+5. **עמוד להכנסת מדדים של מטופל בשטח** - ממשק אינטואיטיבי לתיעוד בזמן אמת עם תצוגה ויזואלית של נתונים.
+6. **ניהול נתונים אישיים** - פרופיל אישי המכיל מידע כגון שם, גיל, תחנה, מייל, מין, הכשרה, שנות התנדבות ועוד.
+7. **דף הרשמה והתחברות**
+   - **הרשמה**: עמוד ידידותי ליצירת פרופיל אישי עם הזנת פרטים אישיים כגון שם, גיל, תחנה, שנות התנדבות ועוד.
+   - **התחברות**: עמוד התחברות מאובטח עם אפשרות שחזור סיסמה במקרה הצורך.
+8. **הרצף שלי** - סימון משמרות שבוצעו לשמירה על רצף שבועי, מעודד התמדה והעלאת משמרות.
+9. **חנות מד"א** - חנות להצגת פריטי לבוש ואביזרים לפי שעות התנדבות נדרשות, להגברת תחושת השייכות והמוטיבציה.
 
 האפליקציה היא המקום המרכזי שלכם לקבל מידע, לתרגל ולשפר את הכישורים הרפואיים בצורה נוחה וזמינה, תוך שמירה על חוויית שימוש פשוטה וידידותית.
 
@@ -43,34 +27,17 @@
 YouthMDA is a digital platform designed for MDA (Magen David Adom) youth volunteers. The application provides essential tools, information, and resources to enhance the capabilities and engagement of youth volunteers.
 
 ### Key Features
-
-#### YouthMDA-AI Smart Assistant
-AI-powered system that answers questions about MDA, medical training, and emergency protocols.
-
-#### Ambulance Checklist
-A tool to systematically verify equipment before each shift.
-
-#### Vital Signs Table
-A dynamic table with normal values for different age groups.
-
-#### Essential Tools
-Built-in timer and metronome for accurate patient care.
-
-#### Patient Data Entry
-A dedicated interface for real-time recording of patient vitals.
-
-#### Personal Data Management
-A user profile with details such as name, station, email, age, gender, training, and volunteering history.
-
-#### Registration & Login
-* **Registration**: User-friendly form for creating a profile with personal details.
-* **Login**: Secure login with password recovery options.
-
-#### My Streak
-Tracks volunteer shifts to encourage regular participation.
-
-#### MDA Store
-View and purchase MDA clothing based on volunteering hours.
+* **YouthMDA-AI Smart Assistant** - AI-powered system that answers questions about MDA, medical training, and emergency protocols.
+* **Ambulance Checklist** - A structured tool to verify equipment and supplies before every shift.
+* **Vital Signs Table** - A detailed, dynamic table with normal values classified by age groups.
+* **Essential Tools** - Built-in timer and metronome to assist with accurate timing and treatment.
+* **Patient Data Entry** - A dedicated interface for real-time recording of patient vitals with visual display.
+* **Personal Data Management** - Profile page with details such as name, station, email, age, gender, training, and volunteer history.
+* **Registration & Login**
+   - **Registration**: User-friendly form for entering personal information and creating an account.
+   - **Login**: Secure login interface with password recovery option.
+* **My Streak** - Tracks volunteer shifts to maintain weekly continuity and encourage active participation.
+* **MDA Store** - Allows users to view clothing items and see how many volunteering hours are needed to acquire them, boosting motivation and engagement.
 
 ### Technologies Used
 * React Native
@@ -118,3 +85,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 * GitHub: [@AdiVishnia](https://github.com/AdiVishnia)
 
 </div>
+
