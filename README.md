@@ -84,6 +84,8 @@ View and purchase MDA clothing based on volunteering hours.
 * Internet connection
 
 ### Installation
+
+#### Option 1: Local Installation
 ```bash
 # Clone the repository
 git clone https://github.com/AdiVishnia/YouthMDA.git
@@ -96,6 +98,39 @@ npm install
 
 # Start the application
 expo start
+```
+
+#### Option 2: Docker Installation
+```bash
+# Pull the Docker image
+docker pull adivishnia/youthmda:latest
+
+# Run the container
+docker run -p 19000:19000 -p 19001:19001 -p 19002:19002 adivishnia/youthmda:latest
+
+# Or using docker-compose
+docker-compose up
+```
+
+The application will be available at:
+- Expo DevTools: http://localhost:19002
+- Expo Client: exp://localhost:19000
+
+### Development with Docker
+If you want to develop using Docker:
+
+```bash
+# Build the development image
+docker-compose up --build
+
+# Run in detached mode
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop the container
+docker-compose down
 ```
 
 ### Contributing
