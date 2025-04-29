@@ -121,3 +121,73 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 </div>
 
+# YouthMDA Docker Setup
+
+This repository contains the Docker configuration for running the YouthMDA application.
+
+## Quick Start
+
+### Prerequisites
+- Docker installed on your system
+- Docker Compose installed on your system
+
+### Running the Application
+
+1. Pull the Docker image:
+```bash
+docker pull adivishnia/youthmda:latest
+```
+
+2. Run the container:
+```bash
+docker run -p 19000:19000 -p 19001:19001 -p 19002:19002 adivishnia/youthmda:latest
+```
+
+Or using docker-compose:
+```bash
+docker-compose up
+```
+
+### Accessing the Application
+
+Once running, you can access the application through:
+- Expo DevTools: http://localhost:19002
+- Expo Client: exp://localhost:19000
+
+### Development
+
+To develop using Docker:
+
+```bash
+# Build the development image
+docker-compose up --build
+
+# Run in detached mode
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop the container
+docker-compose down
+```
+
+## Ports
+
+The application uses the following ports:
+- 19000: Expo Client
+- 19001: Expo DevTools
+- 19002: Expo Web Interface
+
+## Environment Variables
+
+- `NODE_ENV`: Set to 'development' by default
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
+
+## License
+
+This project is licensed under the MIT License.
+
