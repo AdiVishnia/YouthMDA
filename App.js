@@ -1,4 +1,3 @@
-
 import React from 'react';
 import "react-native-gesture-handler";
 import { NavigationContainer } from "@react-navigation/native";
@@ -10,7 +9,6 @@ import VitalSignsTableScreen from "./Screens/VitalSignsTableScreen";
 import WelcomeScreen from "./Screens/WelcomeScreen";
 import SignUpScreen from "./Screens/SignUpScreen";
 import LogInScreen from './Screens/LogInScreen';
-import MyDataScreen from './Screens/MyDataScreen';
 import ProfileScreen from './Screens/ProfileScreen';
 import ChatScreen from './Screens/ChatScreen';
 import MyStreakScreen from './Screens/MyStreakScreen';
