@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "YouthMDA",
     "slug": "youth-mda",
     "version": "1.0.0",
@@ -9,6 +10,17 @@
     "newArchEnabled": true,
     "splash": {
       "image": "./YouthMDA/assets/splash-icon.png",
+=======
+    "name": "test",
+    "slug": "test",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+>>>>>>> 1e2385bdcf63c729de6c9789d1e0506b30da1669
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +29,25 @@
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "foregroundImage": "./YouthMDA/assets/adaptive-icon.png",
+=======
+        "foregroundImage": "./assets/adaptive-icon.png",
+>>>>>>> 1e2385bdcf63c729de6c9789d1e0506b30da1669
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
+<<<<<<< HEAD
       "favicon": "./YouthMDA/assets/webmdalogo.png"
     },
     "assets": ["./YouthMDA/assets/"]
   }
 } 
+=======
+      "favicon": "./assets/favicon.png"
+    },
+    "assets": ["./assets/"]
+  }
+}
+>>>>>>> 1e2385bdcf63c729de6c9789d1e0506b30da1669

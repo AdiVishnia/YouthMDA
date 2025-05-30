@@ -3,17 +3,24 @@ version: '3.8'
 services:
   app:
     build: .
+<<<<<<< HEAD
     container_name: youth-mda-app
+=======
+>>>>>>> 1e2385bdcf63c729de6c9789d1e0506b30da1669
     ports:
       - "19000:19000"
       - "19001:19001"
       - "19002:19002"
+<<<<<<< HEAD
       - "19006:19006"
+=======
+>>>>>>> 1e2385bdcf63c729de6c9789d1e0506b30da1669
     volumes:
       - .:/app
       - /app/node_modules
     environment:
       - NODE_ENV=development
+<<<<<<< HEAD
       - EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0
       - WATCHPACK_POLLING=true
       - CHOKIDAR_USEPOLLING=true
@@ -21,3 +28,7 @@ services:
     stdin_open: true
     tty: true
     network_mode: "host" 
+=======
+    stdin_open: true
+    tty: true 
+>>>>>>> 1e2385bdcf63c729de6c9789d1e0506b30da1669
