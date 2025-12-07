@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "youth-mda-project",
   "version": "1.0.0",
   "description": "YouthMDA Project",
@@ -41,7 +40,6 @@
     "react-native-uuid": "^2.0.3",
     "react-native-vector-icons": "^10.2.0",
     "react-native-web": "0.20.0"
-=======
   "name": "test",
   "version": "1.0.0",
   "main": "index.js",
@@ -83,17 +81,13 @@
     "react-native-screens": "~4.4.0",
     "react-native-uuid": "^2.0.3",
     "react-native-web": "~0.19.13"
->>>>>>> 1e2385bdcf63c729de6c9789d1e0506b30da1669
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
-<<<<<<< HEAD
   "private": true,
   "overrides": {
     "react-native-safe-area-context": "5.4.0"
   }
-=======
   "private": true
->>>>>>> 1e2385bdcf63c729de6c9789d1e0506b30da1669
 }
